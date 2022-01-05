@@ -18,7 +18,9 @@ const getEmployees = () => {
                 </tr>
             </tbody>`
     );
-    const output = `<table class="table">
+    const output = `
+    <h3 class="py-4">Employees</h3>
+    <table class="table">
     <thead>
     <tr>
       <th scope="col">#</th>
@@ -49,7 +51,9 @@ const getCustomers = () => {
                   </tr>
               </tbody>`
     );
-    const output = `<table class="table">
+    const output = `
+    <h3 class="py-4">Customers</h3>
+    <table class="table">
       <thead>
       <tr>
         <th scope="col">#</th>
@@ -81,7 +85,9 @@ const getInvoices = () => {
                   </tr>
               </tbody>`
     );
-    const output = `<table class="table" id="data_table">
+    const output = `
+    <h3 class="py-4">Invoices</h3>
+    <table class="table" id="data_table">
       <thead>
       <tr>
         <th scope="col">#</th>
