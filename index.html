@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Autocont Task</title>
+  </head>
+
+  <body class="bg-light">
+    <script src="./backend.js"></script>
+
+    <!--Container For Buttons--->
+    <div class="container">
+      <div class="d-flex justify-content-evenly mt-5">
+        <button type="button" class="btn btn-primary" onclick="getEmployees()">
+          Get Employees
+        </button>
+        <button type="button" class="btn btn-primary" onclick="getCustomers()">
+          Get Customers
+        </button>
+        <button type="button" class="btn btn-primary" onclick="getInvoices()">
+          Get Invoices
+        </button>
+      </div>
+    </div>
+    <!--Container For Buttons--->
+
+    <!--Table--->
+    <div class="container mt-5 border-top" id="table_container"></div>
+    <!--Table--->
+  </body>
+</html>
